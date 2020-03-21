@@ -1,6 +1,6 @@
 # SwitchIfSpeedTest
 
-Which one is faster⚡️? `switch` or `if`?
+`switch`가 빠를까, `if`가 빠를까?
 
 > '조건이 세 개 이상일 때 switch가 빠르고, 두 개일 때는 if가 빠르다'라는 말을 들었다.
 > 정말일까? if는 switch와 달리 비교 기준을 set해서 패턴을 매칭시키는 과정이 없어서 초반에는 더 빠를거 같은데,
@@ -124,7 +124,6 @@ if의 123024보다<br>
 **🚩Case 5:**<br>
 **switch**의 타임 갭이 120998로<br> 
 if의 124931보다<br>
-**3933 nanosec 빠르다**
+**3933 nanosec 빠르다**<br>
 
 ### 💡'조건이 세 개 이상일 때 switch가 빠르고, 두 개일 때는 if가 빠르다'는 사실로 밝혀졌다.
-첫 번째, 두 번째 조건은 if가 확실히 빠르지만, 세 번째 부터의 조건들은 switch가 빠르다는 결과를 확인하였다.
